@@ -28,6 +28,7 @@ function ToDoList() {
     const removeArr = [...todos].filter((todo) => todo.id !== id);
     setTodos(removeArr);
   };
+  
 
   const completeTodo = (id) => {
     let updateTodos = todos.map((todo) => {
